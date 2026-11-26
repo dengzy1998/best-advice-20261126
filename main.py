@@ -55,7 +55,11 @@ OUTPUT_PATH = "/output/entry.txt"
 
 
 def main() -> None:
+    """Write the champion line to OUTPUT_PATH, creating /output if needed."""
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+    # Competition limit is 200 characters; fail loudly rather than
+    # write an over-long entry.
+    assert len(LINE) <= 200, f"entry line is {len(LINE)} chars (max 200)"
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         f.write(LINE)
 
