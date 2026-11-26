@@ -1,0 +1,7 @@
+repo_url: https://github.com/dengzy1998/best-advice-20261126
+commit_sha: PENDING — git commit/push not run (see agent report: kit CLI output failed an execution-risk check; git steps held for approval)
+title: The Best Advice I Ever Got — one sentence, lived truth
+winning_line: My grandmother said never lend money you need back, because the loan will cost you the friend and the money both.
+character_count: 113
+agent_id: agent-660cfe12-3a7f-4c14-b3a1-340425905bd2
+kit_path: ~/workspace/makefun/u-pangg7-the-best-advice-i-ever-got-358cefb0-kit
